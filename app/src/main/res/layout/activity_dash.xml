@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/colorGreen"
+
+    tools:context=".DashboardActivity">
+
+
+6
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="75sp"
+
+        android:layout_gravity="start"
+
+        android:background="@color/colorPrimaryDark"
+
+        android:fitsSystemWindows="true" />
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar1"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50sp"
+
+        android:layout_marginTop="70sp"
+
+        android:layout_gravity="start"
+
+        android:background="@color/duskyGreen"
+
+        android:fitsSystemWindows="true" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView1"
+
+        android:layout_width="220sp"
+
+        android:layout_height="73sp"
+
+        android:layout_marginTop="70sp"
+
+        android:layout_marginLeft="30sp"
+
+        android:padding="5sp"
+
+        android:text="Login Name"
+
+        android:textSize="25sp" />
+
+
+
+    <ImageView
+
+        android:layout_width="40sp"
+
+        android:layout_height="40sp"
+
+        android:layout_marginTop="16sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/nav_bar" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView"
+
+        android:layout_width="220sp"
+
+        android:layout_height="73sp"
+
+        android:layout_marginLeft="50sp"
+
+        android:padding="10sp"
+
+        android:text="@string/app_name"
+
+        android:textSize="40sp" />
+
+
+
+    <ImageView
+
+        android:layout_width="40sp"
+
+        android:layout_height="40sp"
+
+        android:layout_marginLeft="300sp"
+
+        android:layout_marginTop="70sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/mails" />
+
+
+
+    <ImageView
+
+        android:layout_width="40sp"
+
+        android:layout_height="40sp"
+
+        android:layout_marginLeft="350sp"
+
+        android:layout_marginTop="70sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/login_prof" />
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar3"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="75sp"
+
+        android:layout_gravity="start"
+
+        android:layout_marginTop="655sp"
+
+        android:background="@color/duskyGreen"
+
+        android:fitsSystemWindows="true" />
+
+    <ImageView
+
+        android:layout_width="50sp"
+
+        android:layout_height="50sp"
+
+        android:layout_marginLeft="330sp"
+
+        android:layout_marginTop="670sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/settings" />
+
+
+
+    <ImageView
+
+        android:layout_width="50sp"
+
+        android:layout_height="50sp"
+
+        android:layout_marginLeft="230sp"
+
+        android:layout_marginTop="665sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/tools" />
+
+
+
+    <ImageView
+
+        android:layout_width="50sp"
+
+        android:layout_height="50sp"
+
+        android:layout_marginLeft="130sp"
+
+        android:layout_marginTop="665sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/doc_vault" />
+
+    <ImageView
+
+        android:layout_width="70sp"
+
+        android:layout_height="70sp"
+
+        android:layout_marginLeft="30sp"
+
+        android:layout_marginTop="655sp"
+
+        android:padding="5sp"
+
+        android:pointerIcon="arrow"
+
+        android:src="@drawable/overview" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
