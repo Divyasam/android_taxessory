@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\optellent\\Desktop\\Divya\\Taxassory_2-master\\Taxassory_2-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "/Users/lakshmidevipalanivelu/Desktop/app_android/android_taxessory/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\optellent\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\197c6cf09320b930edf3d5fae7466b05\\res\\values-v18\\values-v18.xml",
+                    "source": "/Users/lakshmidevipalanivelu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4d66a08bb295a032e740c54810cd82ea/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent resetIntent = new Intent(LoginActivity.this, ResetActivity.class);
+                Intent resetIntent = new Intent(LoginActivity.this, UploadActivity.class);
                 startActivity(resetIntent);
             }
         });
@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 String data = "{\"email\":\""+username+"\",\"password\":\""+password+"\"}";
                // Log.d("response", job.toString());
-                JSONObject job = json_parser.makeHTTPPOST("http://10.0.0.13:8080/api/login","POST" , data,"");
+                JSONObject job = json_parser.makeHTTPPOST("http://10.0.0.3:8080/api/login","POST" , data,"");
 
                 Log.d("response", job.toString());
                 return job.toString();

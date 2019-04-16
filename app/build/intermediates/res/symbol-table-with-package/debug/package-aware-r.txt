@@ -1005,6 +1005,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable attach
 drawable avd_hide_password
 drawable avd_show_password
 drawable design_bottom_navigation_item_background
@@ -1026,6 +1027,7 @@ drawable ic_menu_slideshow
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon_camera
 drawable login_prof
 drawable mails
 drawable mtrl_snackbar_background
@@ -1084,11 +1086,13 @@ id all
 id always
 id async
 id auto
+id b_upload
 id barrier
 id beginning
 id blocking
 id bottom
 id buttonPanel
+id cam_btn
 id cancel_action
 id center
 id center_horizontal
@@ -1247,6 +1251,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id text3
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1273,6 +1278,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvHeading
+id tv_file_name
 id uniform
 id unlabeled
 id up
@@ -1336,6 +1343,7 @@ layout activity_main
 layout activity_pin
 layout activity_reset
 layout activity_splash
+layout activity_upload
 layout app_bar_dash
 layout content_dash
 layout design_bottom_navigation_item
