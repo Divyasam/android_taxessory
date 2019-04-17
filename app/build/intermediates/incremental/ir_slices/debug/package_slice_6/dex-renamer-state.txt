@@ -1,4 +1,0 @@
-#Tue Apr 09 12:31:20 PDT 2019
-base.0=C\:\\Users\\optellent\\Desktop\\Divya\\Taxassory_2-master\\Taxassory_2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
-path.0=classes.dex
-renamed.0=classes.dex
