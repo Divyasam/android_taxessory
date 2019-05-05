@@ -146,7 +146,7 @@ public class FingerPrintActivity extends AppCompatActivity {
         pin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent PinIntent = new Intent(FingerPrintActivity.this, PinActivity.class);
+                Intent PinIntent = new Intent(FingerPrintActivity.this, UploadActivity.class);
                 startActivity(PinIntent);
             }
         });

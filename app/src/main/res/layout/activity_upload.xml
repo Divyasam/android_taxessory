@@ -20,24 +20,24 @@
 
     <Button
         android:id="@+id/cam_btn"
-        android:layout_width="300sp"
-        android:layout_height="60sp"
+        android:layout_width="170sp"
+        android:layout_height="40sp"
         android:text="Take a Picture"
         android:layout_marginTop="50sp"
-        android:layout_marginLeft="70sp"
-        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="15sp"
         />
 
     <Button
-        android:id="@+id/tv_file_name"
-        android:layout_width="350sp"
-        android:layout_height="60sp"
+        android:id="@+id/up_btn"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50sp"
         android:text="Upload from device"
-        android:layout_marginTop="10dp"
         android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginLeft="50sp"
-        android:layout_below="@+id/cam_btn" />
+        android:textSize="15sp"
+        android:layout_marginLeft="200sp"
+     />
 
     <Button
         android:layout_width="match_parent"
@@ -53,13 +53,17 @@
 
     <ImageView
         android:id="@+id/text3"
-        android:layout_width="350sp"
-        android:layout_height="450sp"
-        android:text="Upload from device"
-        android:layout_marginTop="70dp"
+        android:layout_width="369dp"
+        android:layout_height="464dp"
+        android:layout_below="@+id/cam_btn"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
         android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginLeft="30sp"
-        android:layout_below="@+id/cam_btn" />
+        android:text="Upload from device"
+        android:textSize="20sp" />
 
 </RelativeLayout>

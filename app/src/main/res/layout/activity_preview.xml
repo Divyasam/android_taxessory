@@ -12,10 +12,10 @@
 
     android:background="@color/colorGreen"
 
-    tools:context=".DashboardActivity">
+    tools:context=".PreviewActivity">
 
 
-6
+    6
     <android.support.v7.widget.Toolbar
 
         android:id="@+id/toolbar"
@@ -29,45 +29,6 @@
         android:background="@color/colorPrimaryDark"
 
         android:fitsSystemWindows="true" />
-
-
-
-    <android.support.v7.widget.Toolbar
-
-        android:id="@+id/toolbar1"
-
-        android:layout_width="match_parent"
-
-        android:layout_height="50sp"
-
-        android:layout_marginTop="70sp"
-
-        android:layout_gravity="start"
-
-        android:background="@color/duskyGreen"
-
-        android:fitsSystemWindows="true" />
-
-
-
-    <TextView
-
-        android:id="@+id/textView1"
-
-        android:layout_width="220sp"
-
-        android:layout_height="73sp"
-
-        android:layout_marginTop="70sp"
-
-        android:layout_marginLeft="30sp"
-
-        android:padding="5sp"
-
-        android:text="Login Name"
-
-        android:textSize="25sp" />
-
 
 
     <ImageView
@@ -102,43 +63,32 @@
 
         android:textSize="40sp" />
 
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250sp"
+        android:layout_marginTop="90sp"
+        android:text="Upload"
+       />
 
-
-    <ImageView
-
-        android:layout_width="40sp"
-
-        android:layout_height="40sp"
-
-        android:layout_marginLeft="300sp"
-
-        android:layout_marginTop="70sp"
-
-        android:padding="5sp"
-
-        android:pointerIcon="arrow"
-
-        android:src="@drawable/mails" />
-
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="90sp"
+        android:text="Try again" />
 
     <ImageView
-
-        android:layout_width="40sp"
-
-        android:layout_height="40sp"
-
-        android:layout_marginLeft="350sp"
-
-        android:layout_marginTop="70sp"
-
-        android:padding="5sp"
-
-        android:pointerIcon="arrow"
-
-        android:src="@drawable/login_prof" />
-
-
+        android:id="@+id/touchImage"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="150sp"
+        android:layout_marginBottom="76dp"
+        android:scaleType="fitXY" />
 
     <android.support.v7.widget.Toolbar
 
@@ -150,7 +100,7 @@
 
         android:layout_gravity="start"
 
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="655sp"
 
         android:background="@color/duskyGreen"
 
@@ -164,14 +114,13 @@
 
         android:layout_marginLeft="330sp"
 
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="670sp"
 
         android:padding="5sp"
 
         android:pointerIcon="arrow"
 
-        android:src="@drawable/settings"
-        android:onClick="showSettings"/>
+        android:src="@drawable/settings" />
 
 
 
@@ -183,15 +132,13 @@
 
         android:layout_marginLeft="230sp"
 
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="665sp"
 
         android:padding="5sp"
 
         android:pointerIcon="arrow"
 
-        android:src="@drawable/tools"
-
-        android:onClick="showPopup"/>
+        android:src="@drawable/tools" />
 
 
 
@@ -203,15 +150,13 @@
 
         android:layout_marginLeft="130sp"
 
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="665sp"
 
         android:padding="5sp"
 
         android:pointerIcon="arrow"
 
-        android:src="@drawable/doc_vault"
-
-        android:onClick="showPopup"/>
+        android:src="@drawable/doc_vault" />
 
     <ImageView
 
@@ -221,15 +166,13 @@
 
         android:layout_marginLeft="30sp"
 
-        android:layout_marginTop="600sp"
+        android:layout_marginTop="655sp"
 
         android:padding="5sp"
 
         android:pointerIcon="arrow"
 
-        android:src="@drawable/overview"
-        android:onClick="showPopup"/>
-
+        android:src="@drawable/overview" />
 
 
 
